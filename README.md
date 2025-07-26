@@ -23,10 +23,10 @@ The primary objective of this assessment was to evaluate the security posture of
 
 ## 2. **Scope of Work**
 
-> **Target Application:** DVWA on localhost
-> **Testing Tools:** OWASP ZAP, Firefox with proxy
-> **Testing Type:** Black-box vulnerability scanning and manual verification
-> **Environment:** Kali Linux (Localhost)
+* **Target Application:** DVWA on localhost
+* **Testing Tools:** OWASP ZAP, Firefox with proxy
+* **Testing Type:** Black-box vulnerability scanning and manual verification
+* **Environment:** Kali Linux (Localhost)
 
 ---
 
@@ -36,7 +36,7 @@ The primary objective of this assessment was to evaluate the security posture of
 * **Risk Level**: High
 * **Page Affected**: Login Page (`/login.php`)
 * **Tools Used**: Manual + OWASP ZAP
-* **Payload**: `admin' -- `
+* **Payload**: ' OR '1'='1 --
 * **Impact**: Bypasses authentication
 * **Remediation**: Use prepared statements (parameterized queries), input validation, and stored procedures.
 
